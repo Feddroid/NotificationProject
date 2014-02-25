@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <title>Hello World</title>
+         <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript">
+            app.initialize();
+        </script>
+         <script type="text/javascript">
+            function ShowAlerta1(){
+                     navigator.notification.alert('You are the winner!',null,'Game Over','Done');
+            }
+
+            function ShowAlerta2(){
+                
+            }
+
+            function ShowAlerta3(){
+                
+            }
+         </script>
+    </head>
+    <body>
+        <div>
+            <input type="button" value="Mostrar Alerta" onclick="ShowAlerta1();">
+            <input type="button" value="Mostrar Alerta" onclick="ShowAlerta2();">
+            <input type="button" value="Mostrar Alerta" onclick="ShowAlerta3();">
+        </div>
+       
+    </body>
+</html>
