@@ -7,9 +7,9 @@
     <author email="dev@cordova.apache.org" href="http://cordova.io">
         Apache Cordova Team
     </author>
-    <gap:config-file platform="android" parent="/manifest">
+    <cdv:config-file platform="android" parent="/manifest">
         <application android:theme="@android:style/Theme.NoTitleBar"></application>
-    </gap:config-file>
+    </cdv:config-file>
     <content src="index.html" />
     <access origin="*" />
 </widget>
